@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //cash
     config.updateValue(config.cash, -10)
+
+    //time
+    config.updateTime(1);
   }
 
   const exerciseOneHour = () => {
@@ -29,6 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
     config.updateValue(config.hunger, -5)
     //happiness
     config.updateValue(config.happiness, +5)
+
+    //time
+    config.updateTime(1);
 
     //cash
     // no changes
@@ -46,6 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
     //happiness
     config.updateValue(config.happiness, +5)
 
+    //time
+    config.updateTime(2);
+
     //cash
     // no changes
     // var update_cash = 0
@@ -61,6 +70,9 @@ document.addEventListener("DOMContentLoaded", () => {
     config.updateValue(config.hunger, -7)
     //happiness
     config.updateValue(config.happiness, +5)
+
+    //time
+    config.updateTime(3)
 
     //cash
     //no changes 
@@ -81,6 +93,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //cash
     config.updateValue(config.cash, -5)
+    //time
+    config.updateTime(1)
   }
 
   const talkTrainer = () => {
@@ -91,6 +105,8 @@ document.addEventListener("DOMContentLoaded", () => {
     config.updateValue(config.hunger, -5)
     //happiness
     config.updateValue(config.happiness, +5)
+    //time
+    config.updateTime(1);
 
     //cash
     //no changes

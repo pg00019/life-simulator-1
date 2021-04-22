@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const workOneHour = () => {
             //health
-            config.updateValue(config.health, -5)
+            // config.updateValue(config.health, -5)
 
             //hunger
             config.updateValue(config.hunger, -5)
@@ -16,11 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, +20)
+            //time
+            config.updateTime(1);
       }
 
       const workThreeHours = () => {
             //health
-            config.updateValue(config.health, -5)
+            //config.updateValue(config.health, -5)
             //hunger
             config.updateValue(config.hunger, -6)
 
@@ -29,12 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, +40)
+            //time
+            config.updateTime(3);
       }
 
 
       const workFiveHours = () => {
             //health
-            config.updateValue(config.health, -5)
+            // config.updateValue(config.health, -5)
 
             //hunger
             config.updateValue(config.hunger, -7)
@@ -45,6 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, +60)
+            //time
+            config.updateTime(5);
       }
 
       const workNineHours = () => {
@@ -59,6 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, +40)
+
+            //time
+            config.updateTime(9);
       }
 
       const takeBreak = () => {
@@ -77,6 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
             // var cashVal = elements.cashValue.innerText
             // update_cash = Number(cashVal)
             // elements.cashValue.innerHTML = update_cash +2
+
+            //time
+            config.updateTime(1);
       }
 
       const attendMeeting = () => {
@@ -87,6 +99,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //happiness
             config.updateValue(config.happiness, +5)
+            //time
+            config.updateTime(1);
 
             //cash
             //no changes
@@ -104,6 +118,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //happiness
             config.updateValue(config.happiness, -4)
+
+            //time
+            config.updateTime(1);
 
             //cash
             //no changes

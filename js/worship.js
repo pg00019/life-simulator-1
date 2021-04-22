@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -10)
+
+        //time
+        config.updateTime(2)
     }
 
     const serve = () => {
@@ -25,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -20)
+
+        //time
+        config.updateTime(2)
     }
 
     const charity = () => {
@@ -37,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -30)
+
+        //time
+        config.updateTime(2)
     }
 
     document.addEventListener('click', () => {

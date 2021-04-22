@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     config.updateValue(config.health, -2)
 
     config.updateValue(config.happiness, +2)
+    config.updateTime(1);
   }
 
   function homeCleanRoom() {
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     config.updateValue(config.hunger, -2)
 
     config.updateValue(config.happiness, +2)
+    config.updateTime(1);
   }
 
   document.addEventListener('click', () => {

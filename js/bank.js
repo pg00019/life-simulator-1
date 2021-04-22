@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, -50)
+          //time
+          config.updateTime(1);
      }
 
      function depositMoney() {
@@ -33,6 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, +40)
+
+          //time
+          config.updateTime(1);
+
      }
 
 
@@ -50,6 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, -30)
+
+          //time
+          config.updateTime(1);
      }
 
      function takeLoan() {
@@ -66,6 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, +10)
+
+          //time
+          config.updateTime(1);
      }
 
      function payBills() {
@@ -82,6 +94,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, -10)
+
+          //time
+          config.updateTime(1);
      }
 
      function talkTeller() {
@@ -94,6 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //cash
           config.updateValue(config.cash, -10)
+
+          //time
+          config.updateTime(1);
      }
 
      document.addEventListener('click', () => {

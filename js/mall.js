@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -30)
+
+        //time
+        config.updateTime(3)
     }
 
     const watchMovies = () => {
@@ -25,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -30)
+
+        //time
+        config.updateTime(3)
     }
 
     const gamingZone = () => {
@@ -37,6 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -30)
+        //time
+        config.updateTime(2);
     }
 
     const foodCourt = () => {
@@ -49,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -25)
+        //time
+        config.updateTime(1);
     }
 
     document.addEventListener('click', () => {

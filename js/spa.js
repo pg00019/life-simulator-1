@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -22)
+
+            //time
+            config.updateTime(2)
     }
 
     const manicurePedicure = () => {
@@ -23,6 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -22)
+
+            //time
+            config.updateTime(2)
     }
 
     document.addEventListener('click', () => {

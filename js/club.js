@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -20)
+        //time
+        config.updateTime(2)
     }
 
     const drinkEat = () => {
@@ -26,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -25)
+        //time
+        config.updateTime(1)
 
     }
 
@@ -35,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //happiness
         config.updateValue(config.happiness, +15)
+
+        //time
+        config.updateTime(2)
 
         //cash
         //no changes

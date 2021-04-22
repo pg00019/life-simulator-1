@@ -24,6 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -500)
+
+        //time
+        config.updateTime(1);
     }
 
     const payFees = () => {
@@ -40,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -500)
+
+        //time
+        config.updateTime(1);
     }
 
     const attendClasses = () => {
@@ -50,6 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
         config.updateValue(config.hunger, -2)
         //happiness
         config.updateValue(config.happiness, +4)
+
+        //time
+        config.updateTime(1);
 
         //cash
         //no changes
@@ -68,6 +77,9 @@ document.addEventListener("DOMContentLoaded", () => {
         //happiness
         config.updateValue(config.happiness, +3)
 
+        //time
+        config.updateTime(1);
+
         //cash
         //no changes
         // var update_cash = 0
@@ -84,6 +96,8 @@ document.addEventListener("DOMContentLoaded", () => {
         //happiness
         config.updateValue(config.happiness, +3)
 
+        //time
+        config.updateTime(1);
         //cash
         //no changes
         // var update_cash = 0
@@ -104,6 +118,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //cash
         config.updateValue(config.cash, -4)
+
+        //time
+        config.updateTime(1);
     }
 
     const playGames = () => {
@@ -112,6 +129,9 @@ document.addEventListener("DOMContentLoaded", () => {
         config.updateValue(config.hunger, -4)
         //happiness
         config.updateValue(config.happiness, +4)
+
+        //time
+        config.updateTime(1);
 
         //cash
         //no changes
@@ -129,6 +149,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //happiness
         config.updateValue(config.happiness, +3)
+
+        //time
+        config.updateTime(1);
 
         //cashhValue
         //no changes

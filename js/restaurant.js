@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -17)
+
+            //time
+            config.updateTime(2)
       }
 
       const seaFood = () => {
@@ -26,6 +29,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -22)
+
+            //time
+            config.updateTime(2)
       }
 
       const salad = () => {
@@ -38,6 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -12)
+
+            //time
+            config.updateTime(1)
       }
 
       const southIndian = () => {
@@ -50,6 +59,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -17)
+            //time
+            config.updateTime(2)
       }
 
       const northIndian = () => {
@@ -62,6 +73,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -17)
+            //time
+            config.updateTime(2)
       }
 
       const italianFood = () => {
@@ -74,6 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -12)
+            //time
+            config.updateTime(2)
       }
 
       const chineseFood = () => {
@@ -86,6 +101,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //cash
             config.updateValue(config.cash, -17)
+
+            //time
+            config.updateTime(2)
       }
 
       document.addEventListener('click', () => {
