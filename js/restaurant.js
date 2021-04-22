@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             config.updateValue(config.cash, -22)
 
             //time
-            config.updateTime(2)
+            config.updateTime(1)
       }
 
       const salad = () => {
